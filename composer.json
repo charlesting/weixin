@@ -1,0 +1,31 @@
+{
+  "name": "charlestian/weixin",
+  "type": "library",
+  "description": "composer package for weixin",
+  "keywords": ["weixin", "wechat"],
+  "homepage": "http://koudaileyuan.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "charles tian",
+      "email": "gottwolf@gmail.com",
+      "homepage": "http://hchtin.com"
+    }
+  ],
+  "support": {
+    "forum": "http://koudaileyuan.com"
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4" : {
+      "CT\\WX\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.01-dev"
+    }
+  }
+}
